@@ -1,0 +1,51 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.example.*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Generated Python packaging files
+build/
+dist/
+*.egg-info/
+
+# Local backups
+*_backup.csv
+*.bak
+
+# Optional: local generated datasets and raw website captures
+# Uncomment these if you do not want to commit collected data:
+# data/raw/
+# data/practices.csv
+# data/scored_practices.csv
+# data/outreach_drafts.csv
+# data/compliance_report.csv
